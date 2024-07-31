@@ -1,0 +1,164 @@
+<!DOCTYPE= HTML>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="description" content="mi pagina web">
+<meta name="keyword" content="html5">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="style.css">
+<title>Documento HTML</title>
+ <style>
+      body {
+        width: 100%;
+       // max-width: 1400px;
+        float: center;
+        margin: 0 auto;
+        font-family: georgia;
+       // background-color:  ;
+      }
+      
+       section {
+       //	border-style: dashed;
+       position: absolute;
+        width: 100%;
+        height: 75%;
+        padding-top: 2px;
+        background-color: #EE8352;
+      }
+
+      img {
+      	float: left;
+      	margin-left: 10px;
+      }
+     
+      #titulo {
+      	font-size: 100px;
+      //	border-style: solid;
+      margin-left: 30px;
+      	margin-top: 0px;
+      	margin-bottom: 0px;
+      }
+
+      #subtitulo{
+      	font-size: 18px;
+      	margin-bottom: 0px;
+      //	border-style: solid;
+      margin-left: 30px;
+      	padding: 0px;
+      	//clear: left;
+      	margin-right: 46px;
+      }
+
+      h1{ font-family: arial;
+      	font-style: italic;
+      	font-size: 20px;
+      	      }
+
+      table{
+      	margin: 15px;
+      }
+      	
+     td{
+     	vertical-align:top;
+     	padding-left: 10px;
+     	padding-right: 10px;
+     	padding-top: 35px;
+
+     }
+
+     nav{
+    	 height: 10%;
+     	clear: both;
+     	width: 100%;
+     	background: linear-gradient(to bottom, #f9f9f9 3px, #e9e9e9 100%) ;
+ 			padding-top: 10px;
+     border-top: none thick green;
+     font-size: x-medium;
+     text-transform: uppercase;
+     }
+
+     ul{
+			list-style: none;
+		}
+		
+		li {
+		float: left;
+		padding-left: 20px ;
+		}
+
+		.remover{
+			filter: brightness(1.1);
+			mix-blend-mode:  multiply;
+		}
+
+	a:link{ 
+  color: black; 
+  text-decoration: none;
+	} 
+ 
+  a:visited {
+   	color: #EE8352;
+   }
+      
+
+	a:hover { 
+	  background-color: #A7C5FA ; 
+  color: #ffffff; 
+}
+  
+  
+a:active{
+	color: black;
+}
+  </style>
+
+</head>
+<body>
+	<header>
+		<h1>titulo de la web</h1>
+		</header>
+		<!--Menu de navegacion-->
+		<nav>
+			<ul>
+				<li><a href="#">Nuestra Solución</a></li>
+				<li><a href="#">Nuestras Ofertas</a></li>
+				<li><a href="#">Nuestras Recursos</a></li>
+				<li><a href="#">Nuestros Clientes</a></li>
+			</ul>
+		</nav>
+		<!--contenido de la pagina-->
+	<main>
+		<article>
+				<section >
+				<img src="personabicicleta.png" alt="imagen de bicicleta" width=500px height=570px>
+				<p id="titulo">Start a better day</p>
+				<p id="subtitulo">Pour tous les profils de salariés, pour tous les types de mobilités, chez tous les marchands de mobilité en France</p>
+				<table >
+					<tr>
+						<td width="300px" margin-rigth="5%" >
+							<img class="remover" src="icono1.png" alt="ver" width=50px height=50px></td>
+							<td width="300px"><img class="remover" src="iconocalendario.png" alt="imagen" width=50px height=50px></td>
+							<td width="200px"><img class="remover" src="iconometropolis.png" alt="imagen" width=50px height=50px></td>
+							<td width="200px"><img class="remover" src="iconored.png" alt="imagen" width=50px height=50px>
+						</td>
+						</tr>
+						<tr>
+						<td >POUR LES SALARIÉS</td>
+						<td>POUR LES ENTREPRISES</td>
+						<td>POUR LES RÉGIONS, COLLECTIVITÉS ET MÉTROPOLES</td>
+						<td>POUR LA PLANÈTE</td>
+						</tr>
+						<tr>
+							<td>Un compte mobilité accessible sur une web-app ou sur un ordinateur, avec une diversité de moyens de paiements qui répondent à tous les cas d’usages</td>
+							<td>Une plateforme de gestion centralisée et facile d’utilisation pour gérer les mobilités et les données de vos collaborateurs en temps réel
+							</td>
+							<td>Une solution flexible et inclusive pour une distribution ciblée d’aide mobilité aux citoyens d’un territoire</td>
+							<td>Une solution flexible et inclusive pour une distribution ciblée d’aide mobilité aux citoyens d’un territoire.</td>
+						</tr>
+		
+	</table>
+</section>
+</article>
+</main>
+</body>
+</html>
